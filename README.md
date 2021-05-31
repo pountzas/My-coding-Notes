@@ -3,10 +3,13 @@
 ## GEMS
 
 ### **_Rspec_**
--creating app without default tests
+- Flexible authentication solution for Rails with Warden
+
+#### Instalation
+- creating app without default tests
 ``rails new your_app_name -t`` 
 
--need to add devise for genereting tests
+- need to add devise for genereting tests
 ``bundle add devise``<br>
 ``rails g devise:install``<br>
 ``rails g devise User``<br>
@@ -24,6 +27,14 @@
 - Now ``bundle list`` should show you all the gems except rspec related
 
 ### `Devise`
+``bundle add devise``<br>
+``rails g devise:install``<br>
+``rails g devise User``<br>
+
+### ``fontawesome``
+- Run ``yarn add @fortawesome/fontawesome-free``
+
+- Go to javascript/packs/application.js and paste: ``import "@fortawesome/fontawesome-free/css/all"`` 
 
 ## **_git/github_**
 Magic link
@@ -47,3 +58,13 @@ git push -f``
 ### Uncheck last commit
 
 ``git reset --soft HEAD~1``
+
+## **_Heroku_**
+
+### Instalation
+
+
+### push to heroku
+
+``git push heroku main`` or whatever branch
+``heroku rename name`` change app name on heroku side
