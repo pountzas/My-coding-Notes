@@ -3,8 +3,19 @@
 ## GEMS
 
 ### **_Rspec_**
+-creating app without default tests
+``rails new your_app_name -t`` 
+
+-need to add devise for genereting tests
+``bundle add devise``<br>
+``rails g devise:install``<br>
+``rails g devise User``<br>
+
+- Next we'll create our posts scaffold.
+``rails g scaffold posts title:string body:text user:references views:integer``<br>
 
 
+ ``rails generate rspec:model User``
 #### ```Remove rspec```
 
 - Remove spec directory
