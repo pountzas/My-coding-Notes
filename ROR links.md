@@ -7,3 +7,6 @@ https://deanin.com/blog/rspec-rails/
 
 # templates
 https://railsbytes.com/
+
+# 
+https://github.com/railsgirls/railsgirls.github.io
