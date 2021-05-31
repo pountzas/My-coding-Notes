@@ -1,18 +1,29 @@
 # **_My-coding-Notes_**
 
+## RoR 
+
+### **_Create_**
+``rails new appName``<br>
+``rails new .//``<br> 
+
+### **_server_**
+``rails s``<br>
+``rails server -e production -p 4000``<br> change server  port
+
+
 ## GEMS
 
 ### **_Rspec_**
 - Flexible authentication solution for Rails with Warden
 
 #### Instalation
-- creating app without default tests
+- creating app without default tests<br>
 ``rails new your_app_name -t`` 
 
-- need to add devise for genereting tests
+- need to add devise for genereting tests<br>
 ``bundle add devise``<br>
 ``rails g devise:install``<br>
-``rails g devise User``<br>
+``rails g devise User``
 
 - Next we'll create our posts scaffold.
 ``rails g scaffold posts title:string body:text user:references views:integer``<br>
@@ -66,5 +77,6 @@ git push -f``
 
 ### push to heroku
 
-``git push heroku main`` or whatever branch
-``heroku rename name`` change app name on heroku side
+``git push heroku main``<br>
+or whatever branch<br>
+``heroku rename name``<br> change app name on heroku side
