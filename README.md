@@ -42,6 +42,19 @@
 ``rails g devise:install``<br>
 ``rails g devise User``<br>
 
+### ``simple forms``
+- gemfile <br>
+``gem 'simple_form'``<br>
+
+#### instalation
+- Run the following command to install it:<br>
+``bundle install``
+
+- Run the generator:
+
+``rails generate simple_form:install`` or<br>
+``rails generate simple_form:install --bootstrap``- 
+
 ### ``fontawesome``
 - Run ``yarn add @fortawesome/fontawesome-free``
 
