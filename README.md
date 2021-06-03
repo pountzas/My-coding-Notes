@@ -42,6 +42,12 @@
 ``rails g devise:install``<br>
 ``rails g devise User``<br>
 
+### ``has_friendship``<br>
+- gemfile <br>
+``gem 'has_friendship'``<br>
+``rails has_friendship_engine:install:migrations``<br>
+``rake db:migrate``
+
 ### ``simple forms``
 - gemfile <br>
 ``gem 'simple_form'``<br>
