@@ -25,11 +25,11 @@
 ``rails g devise:install``<br>
 ``rails g devise User``
 
-- Next we'll create our posts scaffold.
+- Next we'll create our posts scaffold.<br>
 ``rails g scaffold posts title:string body:text user:references views:integer``<br>
 
-
  ``rails generate rspec:model User``
+
 #### ```Remove rspec```
 
 - Remove spec directory
