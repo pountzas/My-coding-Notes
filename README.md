@@ -99,3 +99,5 @@ git push -f``
 ``git push heroku main``<br>
 or whatever branch<br>
 ``heroku rename name``<br> change app name on heroku side
+
+https://devcenter.heroku.com/articles/getting-started-with-rails5
