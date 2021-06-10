@@ -10,6 +10,8 @@
 ``rails s``<br>
 ``rails server -e production -p 4000``<br> change server  port
 
+### drop db inside rails console only that table
+``Friendship.delete_all``
 
 ## GEMS
 
