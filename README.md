@@ -72,6 +72,10 @@
 Magic link
 https://www.freecodecamp.org/news/git-cheat-sheet/
 
+### Unstaging 1 file from added files to stage
+
+``git restore .\spec\models\frienship_spec.rb --staged``
+
 ### Undo changes since last commit:
 
 ``git clean -fd
