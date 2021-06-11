@@ -113,3 +113,7 @@ https://devcenter.heroku.com/articles/getting-started-with-rails5
 
 #### to change the stack 
 ``heroku stack:set heroku-18 --app ror-social-friends``
+
+#### when deploy and “We're sorry, but something went wrong.”
+``heroku rake db:migrate --app ror-social-friends``
+``heroku restart --app ror-social-friends``
