@@ -115,5 +115,5 @@ https://devcenter.heroku.com/articles/getting-started-with-rails5
 ``heroku stack:set heroku-18 --app ror-social-friends``
 
 #### when deploy and “We're sorry, but something went wrong.”
-``heroku rake db:migrate --app ror-social-friends``
+``heroku rake db:migrate --app ror-social-friends``<br>
 ``heroku restart --app ror-social-friends``
