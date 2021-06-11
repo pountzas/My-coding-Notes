@@ -110,3 +110,6 @@ or whatever branch<br>
 ``heroku rename name``<br> change app name on heroku side
 
 https://devcenter.heroku.com/articles/getting-started-with-rails5
+
+#### to change the stack 
+``heroku stack:set heroku-18 --app ror-social-friends``
