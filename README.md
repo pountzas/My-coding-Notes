@@ -40,6 +40,10 @@
 - Now ``bundle list`` should show you all the gems except rspec related
 
 ### `Devise`
+
+https://stackoverflow.com/questions/41972575/generating-devise-controllers-rails-devise/41972901
+example
+
 ``bundle add devise``<br>
 ``rails g devise:install``<br>
 ``rails g devise User``<br>
