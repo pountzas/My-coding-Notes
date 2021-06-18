@@ -60,47 +60,46 @@ example
 
 #### instalation
 - Run the following command to install it:<br>
-``bundle install``
+```bundle install```
 
 - Run the generator:
 
-``rails generate simple_form:install`` or<br>
-``rails generate simple_form:install --bootstrap``- 
+```rails generate simple_form:install``` or<br>
+```rails generate simple_form:install --bootstrap```- 
 
-### ``fontawesome``
-- Run ``yarn add @fortawesome/fontawesome-free``
+### ```fontawesome```
+- Run ```yarn add @fortawesome/fontawesome-free```
 
-- Go to javascript/packs/application.js and paste: ``import "@fortawesome/fontawesome-free/css/all"`` 
+- Go to javascript/packs/application.js and paste: ```import "@fortawesome/fontawesome-free/css/all"```
 
 ## **_git/github_**
 Magic link
 https://www.freecodecamp.org/news/git-cheat-sheet/
 
 ### deleete a branch localy
-``git branch -D friendshipsV2``
+```git branch -D friendshipsV2```
 
 ### Unstaging 1 file from added files to stage
 
-``git restore .\spec\models\frienship_spec.rb --staged``
+```git restore .\spec\models\frienship_spec.rb --staged```
 
 ### Undo changes since last commit:
 
-``git clean -fd
-``<br>``
-git reset --hard``
+```git clean -fd```
+<br>
+```git reset --hard```
 
 ### Delete last commit from github
 
 - Load previus commit
 - Push by force to roleback and delete commits fro github
 
-``git reset HEAD^ --hard
-``<br>``
-git push -f``
+```git reset HEAD^ --hard```<br>
+```git push -f```
 
 ### Uncheck last commit
 
-``git reset --soft HEAD~1``
+```git reset --soft HEAD~1```
 
 ## **_Heroku_**
 
@@ -108,16 +107,16 @@ git push -f``
 
 
 ### push to heroku
-
-``git push heroku main``<br>
+```git heroku create```
+```git push heroku main```<br>
 or whatever branch<br>
-``heroku rename name``<br> change app name on heroku side
+```heroku rename name```<br> change app name on heroku side
 
 https://devcenter.heroku.com/articles/getting-started-with-rails5
 
 #### to change the stack 
-``heroku stack:set heroku-18 --app ror-social-friends``
+```heroku stack:set heroku-18 --app ror-social-friends```
 
 #### when deploy and “We're sorry, but something went wrong.”
-``heroku rake db:migrate --app ror-social-friends``<br>
-``heroku restart --app ror-social-friends``
+```heroku rake db:migrate --app ror-social-friends```<br>
+```heroku restart --app ror-social-friends```
