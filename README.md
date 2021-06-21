@@ -31,6 +31,11 @@
 ``rails g scaffold posts title:string body:text user:references views:integer``<br>
 
  ``rails generate rspec:model User``
+ 
+ #### ```errors```
+ when "bin/rails db:migrate RAILS_ENV=test" <br>
+ ```bundle exec rake db:test:prepare```<br>
+ ```bundle exec rake db:migrate```
 
 #### ```Remove rspec```
 
