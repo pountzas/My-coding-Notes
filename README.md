@@ -4,7 +4,7 @@
 Magic link
 https://www.freecodecamp.org/news/git-cheat-sheet/
 
-### deleete a branch localy
+### delete a branch localy
 ```git branch -D friendshipsV2```
 
 ### Unstaging 1 file from added files to stage
