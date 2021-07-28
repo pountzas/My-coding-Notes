@@ -106,6 +106,11 @@ https://www.freecodecamp.org/news/git-cheat-sheet/
 
 ```git reset --soft HEAD~1```
 
+### Use subtree push to send it to the gh-pages branch on GitHub.
+
+```git subtree push --prefix dist origin gh-pages```<br>
+Boom. If your folder isn’t called dist, then you’ll need to change that in each of the commands above.
+
 ## **_Heroku_**
 
 ### Instalation
