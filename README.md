@@ -60,6 +60,9 @@ If the changes on your branch diverge from the changes in your stash, you may ru
 ```git subtree push --prefix dist origin gh-pages```<br>
 Boom. If your folder isn’t called dist, then you’ll need to change that in each of the commands above.
 
+### Git Bisect
+```git bisect start```
+
 ## **_Heroku_**
 
 ### Instalation
