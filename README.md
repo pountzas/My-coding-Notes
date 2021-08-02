@@ -29,6 +29,32 @@ https://www.freecodecamp.org/news/git-cheat-sheet/
 
 ```git reset --soft HEAD~1```
 
+### Git stash
+git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+
+#### Stashing your work<br>
+```git stash```<br>
+At this point you're free to make changes, create new commits, switch branches, and perform any other Git operations; then come back and re-apply your stash when you're ready. Note that the stash is local to your Git repository; stashes are not transferred to the server when you push.
+
+#### Re-applying your stashed changes<br>
+```git stash pop```<br>
+Popping your stash removes the changes from your stash and reapplies them to your working copy. Alternatively, you can reapply the changes to your working copy and keep them in your stash with ```git stash apply```
+
+#### Stashing untracked or ignored files<br>
+```git stash -u```<br>
+Adding the -u option (or --include-untracked) tells git stash to also stash your untracked files
+
+#### Creating a branch from your stash
+If the changes on your branch diverge from the changes in your stash, you may run into conflicts when popping or applying your stash. Instead, you can use git stash branch to create a new branch to apply your stashed changes.<br>
+```git stash branch add-stylesheet stash@{1}```<br>
+
+#### Other usefull commands<br>
+```git stash list```<br>
+```git stash save "add style to our site"```<br>
+```git stash pop stash@{2}```<br>
+```git stash drop stash@{1}```<br>
+```git stash clear```<br>
+
 ### Use subtree push to send it to the gh-pages branch on GitHub.
 
 ```git subtree push --prefix dist origin gh-pages```<br>
@@ -37,7 +63,6 @@ Boom. If your folder isn’t called dist, then you’ll need to change that in e
 ## **_Heroku_**
 
 ### Instalation
-
 
 ### push to heroku
 ```git heroku create```
