@@ -20,7 +20,7 @@ https://www.freecodecamp.org/news/git-cheat-sheet/
 ### Delete last commit from github
 
 - Load previus commit
-- Push by force to roleback and delete commits fro github
+- Push by force to roleback and delete commits from github
 
 ```git reset HEAD^ --hard```<br>
 ```git push -f```
