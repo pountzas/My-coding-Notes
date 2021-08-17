@@ -1,3 +1,7 @@
 ## React
 
-### new App
+### new App<br>
+
+```npx create-react-app .``` if allready have folder<br>
+
+```npx create-react-app appNameFolder``` <br>
