@@ -71,6 +71,10 @@ Boom. If your folder isn’t called dist, then you’ll need to change that in e
 ## **_Heroku_**
 
 ### Instalation
+#### install on wsl 
+```
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+```
 
 ### push to heroku
 ```git heroku create```
