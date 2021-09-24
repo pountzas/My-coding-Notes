@@ -56,8 +56,13 @@ If the changes on your branch diverge from the changes in your stash, you may ru
 ```git stash clear```<br>
 
 ### Use subtree push to send it to the gh-pages branch on GitHub.
+```
+git add dist -f && git commit -m "Initial dist subtree commit"
+```
 
-```git subtree push --prefix dist origin gh-pages```<br>
+```
+git subtree push --prefix dist origin gh-pages
+```
 Boom. If your folder isn’t called dist, then you’ll need to change that in each of the commands above.
 
 ### Git Bisect
