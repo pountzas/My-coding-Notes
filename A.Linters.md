@@ -1,4 +1,4 @@
-# Insallation
+# Installation
 ## Es Lint
 ### JS
 ```
@@ -15,7 +15,7 @@ npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import
 ```
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
-#### check for errors<br>
+#### check for Linter errors and fix
 ```
 npx eslint .
 ```
