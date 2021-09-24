@@ -77,10 +77,17 @@ curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
 
 ### push to heroku
-```git heroku create```
-```git push heroku main```<br>
+```
+heroku create
+```
+```
+git push heroku main
+```
 or whatever branch<br>
-```heroku rename name```<br> change app name on heroku side
+```
+heroku rename name
+```
+change app name on heroku side
 
 https://devcenter.heroku.com/articles/getting-started-with-rails5
 
