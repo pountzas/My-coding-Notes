@@ -16,7 +16,7 @@ https://www.freecodecamp.org/news/git-cheat-sheet/
 ```
 git clean -fd
 ```
-<br>
+
 ```
 git reset --hard
 ```
