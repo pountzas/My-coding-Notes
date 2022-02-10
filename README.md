@@ -13,9 +13,13 @@ https://www.freecodecamp.org/news/git-cheat-sheet/
 
 ### Undo changes since last commit:
 
-```git clean -fd```
+```
+git clean -fd
+```
 <br>
-```git reset --hard```
+```
+git reset --hard
+```
 
 ### Delete last commit from github
 
